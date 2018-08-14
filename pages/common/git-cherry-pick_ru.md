@@ -7,7 +7,7 @@
 
 `git cherry-pick {{commit}}`
 
-- Применить помледовательность коммитов к текущей ветке (смотри также [`git rebase --onto`](https://900913.ru/tldr/common/en/git-rebase/)):
+- Применить последовательность коммитов к текущей ветке (смотри также [`git rebase --onto`](https://900913.ru/tldr/common/en/git-rebase/)):
 
 `git cherry-pick {{start_commit}}~..{{end_commit}}`
 
