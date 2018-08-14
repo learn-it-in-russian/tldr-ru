@@ -1,28 +1,28 @@
 # git config
 
-> Управление настройками git репозиториев.
-> Эти настройки могут быть локальными (для текущего репозитория) или глобальными (для текущего пользователя).
+> Manage custom configuration options for git repositories.
+> These configurations can be local (for the current repository) or global (for the current user).
 
-- Вывести настройки только для текущего репозитория (хранятся в `.git/config` файле текущего репозитория):
+- List only local configuration entries (stored in `.git/config` in the current repository):
 
 `git config --list --local`
 
-- Вывести только глобальные настройки (хранятся в `~/.gitconfig`):
+- List only global configuration entries (stored in `~/.gitconfig`):
 
 `git config --list --global`
 
-- Список всех настроек (и глобальных и локальных):
+- List all configuration entries that have been defined either locally or globally:
 
 `git config --list`
 
-- Получить значение указанной настройки:
+- Get the value of a given configuration entry:
 
 `git config alias.unstage`
 
-- Установить глобальную настройку в указанное значение:
+- Set the global value of a given configuration entry:
 
 `git config --global alias.unstage "reset HEAD --"`
 
-- Вернуть глобальную настройку в состояние по умолчанию:
+- Revert a global configuration entry to its default value:
 
 `git config --global --unset alias.unstage`
