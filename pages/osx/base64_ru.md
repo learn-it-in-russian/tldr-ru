@@ -1,19 +1,19 @@
 # base64
 
-> Encode and decode using Base64 representation.
+> Шифрование и расшифровка файлов с использованием кодировки base64
 
 - Зашифровать файл:
 
-`base64 -i {{plain_file}}`
+`base64 -i {{обычный файл}}`
 
 - Расшифровать файл:
 
-`base64 -D -i {{base64_file}}`
+`base64 -D -i {{base64_файл}}`
 
 - Зашифровать данные из потока stdin:
 
-`echo {{plain_text}} | base64`
+`echo {{обычный текст}} | base64`
 
 - Расшифровать данные из потока stdin:
 
-`echo {{base64_text}} | base64 -D`
+`echo {{base64_текст}} | base64 -D`
