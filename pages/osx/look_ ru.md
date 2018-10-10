@@ -1,11 +1,11 @@
 # look
 
-> Look for lines in sorted file.
+> Найти строку в отсортированном файле.
 
-- Look for lines which begins with the given prefix:
+-Найти строку начинающуюся с данного префикса:
 
 `look {{prefix}} {{file}}`
 
-- Look for lines ignoring case:
+- Искать строги игнорируя случай:
 
 `look -f {{prefix}} {{file}}`
