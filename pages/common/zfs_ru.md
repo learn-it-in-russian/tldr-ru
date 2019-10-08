@@ -1,16 +1,16 @@
 # zfs
 
-> Manage ZFS filesystems.
+> Управление файловыми системами ZFS.
 
-- List all available zfs filesystems:
+- Список всех доступных файловых систем zfs:
 
 `zfs list`
 
-- Create a new ZFS filesystem:
+- Создать новую файловую систему ZFS:
 
 `zfs create {{pool_name/filesystem_name}}`
 
-- Delete a ZFS filesystem:
+- Удалить файловую систему ZFS:
 
 `zfs destroy {{pool_name/filesystem_name}}`
 
