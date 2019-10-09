@@ -14,14 +14,14 @@
 
 `zfs destroy {{pool_name/filesystem_name}}`
 
-- Create a Snapshot of a ZFS filesystem:
+- Создать снимок файловой системы ZFS:
 
 `zfs snapshot {{pool_name/filesystem_name}}@{{snapshot_name}}`
 
-- Enable compression on a filesystem:
+- Включить сжатие в файловой системе:
 
 `zfs set compression=on {{pool_name/filesystem_name}}`
 
-- Change mountpoint for a filesystem:
+- Изменить точку монтирования для файловой системы:
 
 `zfs set mountpoint={{/my/mount/path}} {{pool_name/filesystem_name}}`

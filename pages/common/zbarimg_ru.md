@@ -2,6 +2,6 @@
 
 > Scan and decode bar codes from image file(s).
 
-- Process an image file:
+- Обработка файла изображения:
 
 `zbarimg {{image_file}}`
