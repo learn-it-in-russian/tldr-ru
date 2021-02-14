@@ -2,10 +2,15 @@
 
 > Fast download utility.
 > Supports HTTP(S), FTP, SFTP, BitTorrent, and Metalink.
+> More information: <https://aria2.github.io>.
 
 - Download a URI to a file:
 
 `aria2c {{url}}`
+
+- Download the contents of an URL to a file:
+
+`aria2c -o {{filename}} {{url}}`
 
 - Download from multiple sources:
 
@@ -22,3 +27,7 @@
 - FTP download with username and password:
 
 `aria2c --ftp-user={{username}} --ftp-passwd={{password}} {{url}}`
+
+- Limit download speed in bytes/s:
+
+`aria2c --max-download-limit={{speed}} {{url}}`

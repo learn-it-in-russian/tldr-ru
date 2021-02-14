@@ -25,3 +25,11 @@
 - Output info about block-device topology:
 
 `lsblk -t`
+
+- Exclude the devices specified by the comma-separated list of major device numbers:
+
+`lsblk -e {{1,7}}`
+
+- Display a customized summary using a comma-separated list of columns:
+
+`lsblk --output {{NAME}},{{SERIAL}},{{MODEL}},{{TRAN}},{{TYPE}},{{SIZE}},{{FSTYPE}},{{MOUNTPOINT}}`

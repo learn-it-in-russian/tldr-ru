@@ -1,6 +1,7 @@
 # http
 
-> HTTPie: HTTP client, a user-friendly cURL replacement.
+> HTTPie: HTTP client, aims to be easier to use than cURL.
+> More information: <https://httpie.org>.
 
 - Download a URL to a file:
 

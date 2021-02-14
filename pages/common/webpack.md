@@ -1,12 +1,13 @@
 # webpack
 
 > Bundle a web project's js files and other assets into a single output file.
+> More information: <https://webpack.js.org>.
 
 - Create a single output file from an entry point file:
 
 `webpack {{app.js}} {{bundle.js}}`
 
-- Load css files too from the js file (this uses the css loader for .css files):
+- Load css files too from the js file (this uses the css loader for `.css` files):
 
 `webpack {{app.js}} {{bundle.js}} --module-bind 'css=css'`
 

@@ -1,6 +1,7 @@
 # ioping
 
 > Monitor I/O latency in real time.
+> More information: <https://github.com/koct9i/ioping>.
 
 - Show disk I/O latency using the default values and the current directory:
 
@@ -10,10 +11,10 @@
 
 `ioping -c 10 -s 1M /tmp`
 
-- Measure disk seek rate on /dev/sda:
+- Measure disk seek rate on `/dev/sdX`:
 
-`ioping -R /dev/sda`
+`ioping -R {{/dev/sdX}}`
 
-- Measure disk sequential speed on /dev/sda:
+- Measure disk sequential speed on `/dev/sdX`:
 
-`ioping -RL /dev/sda`
+`ioping -RL {{/dev/sdX}}`

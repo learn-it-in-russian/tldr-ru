@@ -2,18 +2,18 @@
 
 > Java Application Compiler.
 
-- Compile a .java file:
+- Compile a `.java` file:
 
-`javac {{filename.java}}`
+`javac {{file.java}}`
 
-- Compile several .java files:
+- Compile several `.java` files:
 
-`javac {{filename1.java}} {{filename2.java}} {{filename3.java}}`
+`javac {{file1.java}} {{file2.java}} {{file3.java}}`
 
-- Compile all .java files in current directory:
+- Compile all `.java` files in current directory:
 
 `javac {{*.java}}`
 
-- Compile a .java file and place the resulting class file in a specific directory:
+- Compile a `.java` file and place the resulting class file in a specific directory:
 
-`javac -d {{path/to/some/directory}} {{filename.java}}`
+`javac -d {{path/to/some/directory}} {{file.java}}`

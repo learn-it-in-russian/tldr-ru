@@ -2,7 +2,7 @@
 
 > View the last logged in users.
 
-- View last logins, their duration  and other information as read from /var/log/wtmp:
+- View last logins, their duration and other information as read from `/var/log/wtmp`:
 
 `last`
 
@@ -10,18 +10,18 @@
 
 `last -n {{login_count}}`
 
-- View full login times and dates:
+- Print the full date and time for entries and then display the hostname column last to prevent truncation:
 
-`last -F`
+`last -F -a`
 
-- View the last login by a specific user:
+- View all logins by a specific user and show the ip address instead of the hostname:
 
-`last {{user_name}}`
+`last {{username}} -i`
 
-- View the last reboot (last login of the pseudo user reboot):
+- View all recorded reboots (i.e., the last logins of the pseudo user "reboot"):
 
 `last reboot`
 
-- View the last shutdown (last login of the pseudo user shutdown):
+- View all recorded shutdowns (i.e., the last logins of the pseudo user "shutdown"):
 
 `last shutdown`

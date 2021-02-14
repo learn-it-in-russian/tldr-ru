@@ -2,6 +2,7 @@
 
 > Simple command-line HTTP client.
 > Built with libwww-perl.
+> More information: <https://metacpan.org/pod/lwp-request>.
 
 - Make a simple GET request:
 
@@ -9,7 +10,7 @@
 
 - Upload a file with a POST request:
 
-`cat {{/path/to/file}} | lwp-request -m POST {{http://example.com/some/path}}`
+`lwp-request -m POST {{http://example.com/some/path}} < {{path/to/file}}`
 
 - Make a request with a custom user agent:
 

@@ -1,20 +1,24 @@
 # xargs
 
 > Execute a command with piped arguments coming from another command, a file, etc.
-> The input is treated as a single block of text and split into separate arguments on spaces, tabs, newlines and end-of-file.
+> The input is treated as a single block of text and split into separate pieces on spaces, tabs, newlines and end-of-file.
 
-- Main usage pattern:
+- Run a command using the input data as arguments:
 
 `{{arguments_source}} | xargs {{command}}`
 
-- Delete all files with a `.backup` extension:
+- Run multiple chained commands on the input data:
 
-`{{find . -name '*.backup'}} | xargs {{rm -v}}`
+`{{arguments_source}} | xargs sh -c "{{command1}} && {{command2}} | {{command3}}"`
 
-- Convert newlines in the input into NUL (`\0`) characters, and split on those only (useful if the input to xargs contains spaces):
+- Delete all files with a `.backup` extension (`-print0` uses a null character to split file names, and `-0` uses it as delimiter):
 
-`{{arguments_source}} | tr '\n' '\0' | xargs -0 {{command}}`
+`find . -name {{'*.backup'}} -print0 | xargs -0 rm -v`
 
 - Execute the command once for each input line, replacing any occurrences of the placeholder (here marked as `_`) with the input line:
 
 `{{arguments_source}} | xargs -I _ {{command}} _ {{optional_extra_arguments}}`
+
+- Parallel runs of up to `max-procs` processes at a time; the default is 1. If `max-procs` is 0, xargs will run as many processes as possible at a time:
+
+`{{arguments_source}} | xargs -P {{max-procs}} {{command}}`

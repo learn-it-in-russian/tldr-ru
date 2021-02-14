@@ -1,10 +1,11 @@
 # brew cask
 
 > Package manager for macOS applications distributed as binaries.
+> More information: <https://github.com/Homebrew/homebrew-cask>.
 
-- Search for casks:
+- Search for formulas and casks:
 
-`brew cask search {{text}}`
+`brew search {{text}}`
 
 - Install a cask:
 
@@ -12,19 +13,23 @@
 
 - List all installed casks:
 
-`brew cask list`
+`brew list --cask`
 
 - List installed casks that have newer versions available:
 
-`brew cask outdated`
+`brew outdated --cask`
 
-- Upgrade an installed cask to its latest version:
+- Upgrade an installed cask (if no cask name is given, all installed casks are upgraded):
 
-`brew cask reinstall {{cask_name}}`
+`brew upgrade --cask {{cask_name}}`
 
 - Uninstall a cask:
 
 `brew cask uninstall {{cask_name}}`
+
+- Uninstall a cask and remove related settings and files:
+
+`brew cask zap {{cask_name}}`
 
 - Display information about a given cask:
 

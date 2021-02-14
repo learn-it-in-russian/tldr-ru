@@ -1,19 +1,16 @@
 # assoc
 
-> Displays or modifies file name extension associations. If use it without parameters, assoc displays a list of all extension associations.
+> Display or modify file extension associations.
+> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/assoc>.
 
-- View association for entered extension (for example `.txt`):
+- Display all associated filetypes:
 
-`assoc .txt`
+`assoc`
 
-- Remove the file type association for the file name extension `.bak`:
+- Display the associated filetype for a specific extension:
 
-`assoc .bak= `
+`assoc {{.txt}}`
 
-- View the output of assoc one screen at a time:
+- Modify the associated filetype for a specific extension:
 
-`assoc | more`
-
-- Send the output of assoc to the file `assoc.txt`:
-
-`assoc>assoc.txt`
+`assoc {{.txt}}={{txtfile}}`
