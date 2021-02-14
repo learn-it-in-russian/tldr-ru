@@ -1,10 +1,11 @@
 # dpkg
 
 > Debian package manager.
+> More information: <https://manpages.debian.org/buster/dpkg/dpkg.1.en.html>.
 
 - Install a package:
 
-`dpkg -i {{/path/to/file}}`
+`dpkg -i {{path/to/file.deb}}`
 
 - Remove a package:
 
@@ -14,10 +15,14 @@
 
 `dpkg -l {{pattern}}`
 
-- List package contents:
+- List a package's contents:
 
 `dpkg -L {{package_name}}`
 
+- List contents of a local package file:
+
+`dpkg -c {{path/to/file.deb}}`
+
 - Find out which package owns a file:
 
-`dpkg -S {{file_name}}`
+`dpkg -S {{filename}}`

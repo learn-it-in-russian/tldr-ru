@@ -2,6 +2,7 @@
 
 > Transfers data from or to a server.
 > Supports most protocols, including HTTP, FTP, and POP3.
+> More information: <https://curl.se>.
 
 - Download the contents of an URL to a file:
 
@@ -15,7 +16,7 @@
 
 `curl -O -L -C - {{http://example.com/filename}}`
 
-- Send form-encoded data (POST request of type `application/x-www-form-urlencoded`):
+- Send form-encoded data (POST request of type `application/x-www-form-urlencoded`). Use `-d @file_name` or `-d @'-'` to read from STDIN:
 
 `curl -d {{'name=bob'}} {{http://example.com/form}}`
 

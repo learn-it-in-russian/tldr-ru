@@ -1,6 +1,7 @@
-# hangups 
+# hangups
 
 > Third party command line client for Google Hangouts.
+> More information: <https://github.com/tdryer/hangups>.
 
 - Start hangups:
 
@@ -12,4 +13,4 @@
 
 - Set a refresh token for hangups:
 
-`hangups --token-path {{/path/to/token}}`
+`hangups --token-path {{path/to/token}}`

@@ -10,7 +10,7 @@
 
 `screen -S {{session_name}}`
 
-- Start a new daemon and log the output to screenlog.x:
+- Start a new daemon and log the output to `screenlog.x`:
 
 `screen -dmLS {{session_name}} {{command}}`
 
@@ -25,6 +25,10 @@
 - Detach from inside a screen:
 
 `Ctrl + A, D`
+
+- Kill the current screen session:
+
+`Ctrl + A, K`
 
 - Kill a detached screen:
 

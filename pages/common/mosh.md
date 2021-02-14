@@ -2,6 +2,7 @@
 
 > Mobile Shell (`mosh`) is a robust and responsive replacement for SSH.
 > `mosh` persists connections to remote servers while roaming between networks.
+> More information: <https://mosh.org>.
 
 - Connect to a remote server:
 
@@ -9,7 +10,7 @@
 
 - Connect to a remote server with a specific identity (private key):
 
-`mosh --ssh="ssh -i {{/path/to/key_file}}" {{username}}@{{remote_host}}`
+`mosh --ssh="ssh -i {{path/to/key_file}}" {{username}}@{{remote_host}}`
 
 - Connect to a remote server using a specific port:
 
@@ -25,4 +26,4 @@
 
 - Usage when `mosh-server` binary is outside standard path:
 
-`mosh --server={{/path/to/bin/}}mosh-server {{remote_host}}`
+`mosh --server={{path/to/bin/}}mosh-server {{remote_host}}`

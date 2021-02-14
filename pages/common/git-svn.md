@@ -1,6 +1,7 @@
 # git svn
 
 > Bidirectional operation between a Subversion repository and Git.
+> More information: <https://git-scm.com/docs/git-svn>.
 
 - Clone an SVN repository:
 
@@ -14,7 +15,7 @@
 
 `git svn rebase`
 
-- Fetch updates from the remote SVN repository without changing the git HEAD:
+- Fetch updates from the remote SVN repository without changing the Git HEAD:
 
 `git svn fetch`
 
