@@ -16,4 +16,4 @@
 
 - Перейти к папке, расположенной на другом диске:
 
-`cd {{path/to/directory}} /d`
+`cd /d {{path/to/directory}}`
