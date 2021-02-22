@@ -1,27 +1,27 @@
 # foreman
 
-> Организует основанную Procfile информацию приложений.
+> Менеджер приложений, использующих Procfile.
 
-- Start an application with the Procfile in the current directory:
+- Запустить приложение с Procfile в текущей директории:
 
 `foreman start`
 
-- Start an application with a specified Procfile:
+- Запустить приложение с указанным Procfile-ом:
 
 `foreman start -f {{Procfile}}`
 
-- Start a specific application:
+- Запустить указанное приложение:
 
 `foreman start {{process}}`
 
-- Validate Procfile format:
+- Проверить Procfile на ошибки:
 
 `foreman check`
 
-- Run one-off commands with the process's environment:
+- Запустить одну команду с окружением процесса:
 
 `foreman run {{command}}`
 
-- Start all processes except the one named "worker":
+- Запустить все процессы, за исключением процесса "worker":
 
-`foreman start -m all=1,{{worker}}=0`ые
+`foreman start -m all=1,{{worker}}=0`
