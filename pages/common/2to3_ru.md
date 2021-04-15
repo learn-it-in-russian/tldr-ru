@@ -1,27 +1,31 @@
 # 2to3
 
-> Автоматическая трансляция Python 2 к 3-ему Python-у.
+> Автоматически преобразовывает код Python 2 к версии 3.
 
-- Выводит набор изменений, которые могут быть исполнены для преобразования кода Python 2 к Python версии 3:
+- Выводит изменения, которые могут быть применены без их исполнения (dry-run):
 
 `2to3 {{path/to/file.py}}`
 
-- Конвертировать файл Python 2 к виду Python 3:
+- Преобразовать код указанного файла Python 2 к коду Python 3:
 
 `2to3 --write {{path/to/file.py}}`
 
-- Конвертировать указанный Python файл версии 2 к Python версии 3. К слову, тут заметки: https://900913.ru/tag/python/:
+- Совержить преобразование указанных возможностей языка Python 2 к Python 3:
 
-`2to3 --write {{file.py}} --fix={{raw_input}} --fix={{print}}`
+`2to3 --write {{path/to/file.py}} --fix={{raw_input}} --fix={{print}}`
 
-- Обнофить все фичи кроме *raw_input*, указанными однажды в Python 3:
+- Совершить преобразование, исключив указанные возможности (функции / команды языка):
 
-`2to3 --nofix={{raw_input}} --fix={{print}} example.py`
+`2to3 --write {{path/to/file.py}} --nofix={{has_key}} --nofix={{isinstance}}`
 
-- Вывемти спиок всех доступных возможностей:
+- Выводит список всех возможных преобразований, которые могут быть исполнены при преобразовании Python 2 к Python 3:
 
 `2to3 --list-fixes`
 
-- Конвертировать всю директорию:
+- Сконвертировать все Python 2 файлы директории к Python 3:
 
-`2to3 --output-dir={{path/to/code_python3_version}} --write-unchanged-files --nobackups {{path/to/code_python2_version}}`
+`2to3 --output-dir={{path/to/python3_directory}} --write-unchanged-files --nobackups {{path/to/python2_directory}}`
+
+- Запустить 2to3 в несколько потоков:
+
+`2to3 --processes={{4}} --output-dir={{path/to/python3_directory}} --write --nobackups --no-diff {{path/to/python2_directory}}`
