@@ -17,4 +17,4 @@
 
 - Go to a directory in a different drive:
 
-`cd /d {{path/to/directory}}`
+`cd {{path/to/directory}} /d`
