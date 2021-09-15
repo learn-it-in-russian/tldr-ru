@@ -1,7 +1,7 @@
 # figlet
 
 > Generate ASCII banners from user input.
-> Véase también `showfigfonts`.
+> See also: `showfigfonts`.
 > More information: <http://www.figlet.org/figlet-man.html>.
 
 - Generate by directly inputting text:
@@ -16,6 +16,10 @@
 
 `figlet {{input_text}} -f {{font_filename}}`
 
-- Pipe command output through figlet:
+- Pipe command output through FIGlet:
 
 `{{command}} | figlet`
+
+- Show available FIGlet fonts:
+
+`showfigfonts {{optional_string_to_display}}`
