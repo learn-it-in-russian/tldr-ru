@@ -1,8 +1,9 @@
 # php
 
-> PHP command line interface.
+> PHP command-line interface.
+> More information: <https://php.net>.
 
-- Parse and execute a php script:
+- Parse and execute a PHP script:
 
 `php {{file}}`
 
@@ -21,3 +22,11 @@
 - Start a PHP built-in web server in the current directory:
 
 `php -S {{host:port}}`
+
+- Get a list of installed PHP extensions:
+
+`php -m`
+
+- Display information about the current PHP configuration:
+
+`php -i`

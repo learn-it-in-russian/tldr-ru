@@ -1,6 +1,7 @@
 # wc
 
-> Count words, bytes, or lines.
+> Count lines, words, or bytes.
+> More information: <https://www.gnu.org/software/coreutils/wc>.
 
 - Count lines in file:
 
@@ -17,3 +18,7 @@
 - Count characters in file (taking multi-byte character sets into account):
 
 `wc -m {{file}}`
+
+- Use standard input to count lines, words and characters (bytes) in that order:
+
+`{{find .}} | wc`

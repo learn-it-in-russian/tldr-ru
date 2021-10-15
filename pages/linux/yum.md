@@ -1,10 +1,7 @@
 # yum
 
-> Package management utility for RHEL, Feodra, and CentOS (for older versions).
-
-- Synchronize list of packages and versions available. This should be run first, before running subsequent yum commands:
-
-`yum update`
+> Package management utility for RHEL, Fedora, and CentOS (for older versions).
+> More information: <https://man7.org/linux/man-pages/man8/yum.8.html>.
 
 - Install a new package:
 
@@ -22,6 +19,10 @@
 
 `yum remove {{package}}`
 
-- Upgrade installed packages to newest available versions:
+- Display available updates for installed packages:
+
+`yum check-update`
+
+- Upgrade installed packages to the newest available versions:
 
 `yum upgrade`

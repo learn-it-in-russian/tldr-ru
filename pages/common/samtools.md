@@ -2,6 +2,7 @@
 
 > Tools for handling high-throughput sequencing (genomics) data.
 > Used for reading/writing/editing/indexing/viewing of data in SAM/BAM/CRAM format.
+> More information: <https://www.htslib.org>.
 
 - Convert a SAM input file to BAM stream and save to file:
 
@@ -29,7 +30,7 @@
 
 - Merge multiple files:
 
-`samtools merge {{output}} {{input_1}} [{{input_2}}...]`
+`samtools merge {{output}} {{input1 input2 …}}`
 
 - Split input file according to read groups:
 

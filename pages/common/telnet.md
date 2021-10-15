@@ -4,7 +4,7 @@
 
 - Telnet to the default port of a host:
 
-`telnel {{host}}`
+`telnet {{host}}`
 
 - Telnet to a specific port of a host:
 
@@ -21,3 +21,7 @@
 - Start telnet with "x" as the session termination character:
 
 `telnet -e {{x}} {{ip_address}} {{port}}`
+
+- Telnet to Star Wars animation:
+
+`telnet {{towel.blinkenlights.nl}}`

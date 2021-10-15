@@ -1,18 +1,19 @@
 # cal
 
 > Prints calendar information, with the current day highlighted.
+> More information: <https://manned.org/cal>.
 
 - Display a calendar for the current month:
 
 `cal`
 
-- Use monday as the first day of the week:
+- Display previous, current and next month:
 
-`cal -m`
+`cal -3`
 
-- Display a calendar for the current year:
+- Use Monday as the first day of the week:
 
-`cal -y`
+`cal --monday`
 
 - Display a calendar for a specific year (4 digits):
 

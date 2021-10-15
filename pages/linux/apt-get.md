@@ -1,12 +1,14 @@
 # apt-get
 
 > Debian and Ubuntu package management utility.
+> Search for packages using `apt-cache`.
+> More information: <https://manpages.debian.org/latest/apt/apt-get.8.html>.
 
-- Synchronize list of packages and versions available. This should be run first, before running subsequent apt-get commands:
+- Update the list of available packages and versions (it's recommended to run this before other `apt-get` commands):
 
 `apt-get update`
 
-- Install a new package:
+- Install a package, or update it to the latest available version:
 
 `apt-get install {{package}}`
 
@@ -14,14 +16,22 @@
 
 `apt-get remove {{package}}`
 
-- Upgrade installed packages to newest available versions:
+- Remove a package and its configuration files:
+
+`apt-get purge {{package}}`
+
+- Upgrade all installed packages to their newest available versions:
 
 `apt-get upgrade`
 
-- Remove no longer needed packages:
+- Clean the local repository - removing package files (`.deb`) from interrupted downloads that can no longer be downloaded:
+
+`apt-get autoclean`
+
+- Remove all packages that are no longer needed:
 
 `apt-get autoremove`
 
-- Upgrade installed packages (like "upgrade"), but remove obsolete packages and install additional packages to meet new dependencies:
+- Upgrade installed packages (like `upgrade`), but remove obsolete packages and install additional packages to meet new dependencies:
 
 `apt-get dist-upgrade`

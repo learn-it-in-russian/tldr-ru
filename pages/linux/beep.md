@@ -1,6 +1,7 @@
 # beep
 
 > A utility to beep the PC speaker.
+> More information: <https://github.com/spkr-beep/beep>.
 
 - Play a beep:
 
@@ -16,7 +17,7 @@
 
 - Play each new frequency and duration as a distinct beep:
 
-`beep -f {{frequency}} -l {{duration}} -n -f {{frequency} -l {{duration}}`
+`beep -f {{frequency}} -l {{duration}} -n -f {{frequency}} -l {{duration}}`
 
 - Play the C major scale:
 

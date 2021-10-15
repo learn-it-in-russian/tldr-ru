@@ -1,6 +1,7 @@
 # handbrakecli
 
 > Command-line interface to the HandBrake video conversion tool.
+> More information: <https://handbrake.fr/>.
 
 - Convert a video file to MKV (AAC 160kbit audio and x264 CRF20 video):
 
@@ -8,7 +9,7 @@
 
 - Resize a video file to 320x240:
 
-`handbrakecli -i {{input.mp4}} -o {{output.mp4} -w 320 -l 240`
+`handbrakecli -i {{input.mp4}} -o {{output.mp4}} -w 320 -l 240`
 
 - List available presets:
 

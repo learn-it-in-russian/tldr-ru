@@ -1,6 +1,7 @@
 # lua
 
 > A powerful, light-weight embeddable programming language.
+> More information: <https://www.lua.org>.
 
 - Start an interactive Lua shell:
 
@@ -12,4 +13,4 @@
 
 - Execute a Lua expression:
 
-`lua -e '{{print( "Hello World" )}}`
+`lua -e '{{print( "Hello World" )}}'`

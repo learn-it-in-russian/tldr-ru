@@ -1,6 +1,7 @@
 # netstat
 
-> Displays various networks related information such as open connections, open socket ports etc.
+> Displays network-related information such as open connections, open socket ports, etc.
+> More information: <https://www.unix.com/man-page/osx/1/netstat>.
 
 - List all ports:
 
@@ -14,10 +15,10 @@
 
 `netstat -t`
 
-- Display PID and program names for a specific port:
+- Display PID and program names for a specific protocol:
 
-`netstat -p {PROTOCOL}`
+`netstat -p {{protocol}}`
 
-- List information continuously:
+- Print the routing table:
 
-`netstat -c`
+`netstat -nr`

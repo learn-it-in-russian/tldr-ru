@@ -2,10 +2,11 @@
 
 > Execute commands once at a later time.
 > Service atd (or atrun) should be running for the actual executions.
+> More information: <https://man.archlinux.org/man/at.1>.
 
-- Execute commands from standard input in 5 minutes (press `Ctrl + D` after entering commands):
+- Execute commands from standard input in 5 minutes (press `Ctrl + D` when done):
 
-`at now + 5 min`
+`at now + 5 minutes`
 
 - Execute a command from standard input at 10:00 AM today:
 

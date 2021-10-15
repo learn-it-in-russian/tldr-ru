@@ -2,8 +2,9 @@
 
 > Docker powered mini-Heroku (PaaS).
 > Easily deploy multiple apps to your server in different languages using a single `git-push` command.
+> More information: <https://github.com/dokku/dokku>.
 
-- List runinng apps:
+- List running apps:
 
 `dokku apps`
 

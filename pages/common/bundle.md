@@ -1,19 +1,36 @@
 # bundle
 
 > Dependency manager for the Ruby programming language.
+> More information: <https://bundler.io/man/bundle.1.html>.
 
-- Install all gems defined in the gemfile expected in the working directory:
+- Install all gems defined in the `Gemfile` expected in the working directory:
 
 `bundle install`
 
-- Update all gems by the rules defined in the gemfile and regenerate gemfile.lock:
+- Execute a command in the context of the current bundle:
+
+`bundle exec {{command}} {{arguments}}`
+
+- Update all gems by the rules defined in the `Gemfile` and regenerate `Gemfile.lock`:
 
 `bundle update`
 
-- Update one specific gem defined in the gemfile:
+- Update one or more specific gem(s) defined in the `Gemfile`:
 
-`bundle update --source {{gemname}}`
+`bundle update {{gem_name}} {{gem_name}}`
+
+- Update one or more specific gems(s) defined in the `Gemfile` but only to the next patch version:
+
+`bundle update --patch {{gem_name}} {{gem_name}}`
+
+- Update all gems within the given group in the `Gemfile`:
+
+`bundle update --group {{development}}`
+
+- List installed gems in the `Gemfile` with newer versions available:
+
+`bundle outdated`
 
 - Create a new gem skeleton:
 
-`bundle gem {{gemname}}`
+`bundle gem {{gem_name}}`

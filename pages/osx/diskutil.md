@@ -1,12 +1,13 @@
 # diskutil
 
 > Utility to manage local disks and volumes.
+> More information: <https://ss64.com/osx/diskutil.html>.
 
 - List all currently available disks, partitions and mounted volumes:
 
 `diskutil list`
 
-- Repair the file system data structures of a volume:
+- Repair the filesystem data structures of a volume:
 
 `diskutil repairVolume {{/dev/diskX}}`
 

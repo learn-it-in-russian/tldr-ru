@@ -1,15 +1,7 @@
 # tldrl
 
-> Lint and format TLDR pages.
+> This command is an alias of `tldr-lint`.
 
-- Lint all pages:
+- View documentation for the original command:
 
-`tldrl {{pages_directory}}`
-
-- Format a specific page to stdout:
-
-`tldrl -f {{page.md}}`
-
-- Format all pages in place:
-
-`tldrl -fi {{pages_directory}}`
+`tldr tldr-lint`

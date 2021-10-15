@@ -1,23 +1,24 @@
 # timedatectl
 
 > Control the system time and date.
+> More information: <https://manned.org/timedatectl.1>.
 
-- To check the current system clock time:
+- Check the current system clock time:
 
 `timedatectl`
 
-- To set the local time of the system clock directly:
+- Set the local time of the system clock directly:
 
-`timedatectl set-time {{"yyyy-MM-dd hh:mm:ss"}}`
+`timedatectl set-time "{{yyyy-MM-dd hh:mm:ss}}"`
 
-- To list available timezones:
+- List available timezones:
 
 `timedatectl list-timezones`
 
-- To change timezones:
+- Set the system timezone:
 
 `timedatectl set-timezone {{timezone}}`
 
-- To enable Network Time Protocol (NTP) syncing:
+- Enable Network Time Protocol (NTP) synchronization:
 
 `timedatectl set-ntp on`

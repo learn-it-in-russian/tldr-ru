@@ -1,6 +1,7 @@
 # mongo
 
 > MongoDB interactive shell client.
+> More information: <https://docs.mongodb.com/manual/reference/program/mongo>.
 
 - Connect to a database:
 
@@ -14,6 +15,6 @@
 
 `mongo --username {{username}} {{database}} --password`
 
-- Evaluate a javascript expression on the database:
+- Evaluate a JavaScript expression on the database:
 
 `mongo --eval '{{JSON.stringify(db.foo.findOne())}}' {{database}}`

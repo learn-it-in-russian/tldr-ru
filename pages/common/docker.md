@@ -1,6 +1,8 @@
 # docker
 
 > Manage Docker containers and images.
+> Some subcommands such as `docker run` have their own usage documentation.
+> More information: <https://docs.docker.com/engine/reference/commandline/cli/>.
 
 - List currently running docker containers:
 
@@ -10,22 +12,26 @@
 
 `docker ps -a`
 
-- Start a container:
+- Start a container from an image, with a custom name:
 
-`docker start {{container}}`
+`docker run --name {{container_name}} {{image}}`
 
-- Stop a container:
+- Start or stop an existing container:
 
-`docker stop {{container}}`
+`docker {{start|stop}} {{container_name}}`
 
-- Start a container from an image and get a shell inside of it:
+- Pull an image from a docker registry:
 
-`docker run -it {{image}} bash`
+`docker pull {{image}}`
 
-- Run a command inside of an already running container:
+- Open a shell inside a running container:
 
-`docker exec {{container}} {{command}}`
+`docker exec -it {{container_name}} {{sh}}`
 
-- Remove a container:
+- Remove a stopped container:
 
-`docker rm {{container}}`
+`docker rm {{container_name}}`
+
+- Fetch and follow the logs of a container:
+
+`docker logs -f {{container_name}}`

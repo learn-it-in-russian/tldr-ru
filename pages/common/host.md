@@ -1,6 +1,7 @@
 # host
 
 > Lookup Domain Name Server.
+> More information: <https://manned.org/host>.
 
 - Lookup A, AAAA, and MX records of a domain:
 
@@ -13,3 +14,7 @@
 - Reverse lookup an IP:
 
 `host {{ip_address}}`
+
+- Specify an alternate DNS server to query:
+
+`host {{domain}} {{8.8.8.8}}`
