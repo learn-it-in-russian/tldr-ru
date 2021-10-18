@@ -10,7 +10,7 @@
 
 `2to3 --write {{path/to/file.py}}`
 
-- Совержить преобразование указанных возможностей языка Python 2 к Python 3:
+- Совершить преобразование указанных возможностей языка Python 2 к Python 3:
 
 `2to3 --write {{path/to/file.py}} --fix={{raw_input}} --fix={{print}}`
 
