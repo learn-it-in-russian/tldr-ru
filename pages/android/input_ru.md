@@ -7,7 +7,7 @@
 
 `input keyevent {{event_code}}`
 
-- Отправить текст на Android (`%s` озачает пробел):
+- Отправить текст на Android (`%s` означает пробел):
 
 `input text "{{text}}"`
 

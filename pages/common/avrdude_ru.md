@@ -1,12 +1,12 @@
 # avrdude
 
-> Программатор для микроконтролеров Atmel AVR.
+> Программатор для микроконтроллеров Atmel AVR.
 
-- Прочитать AVR микроконтролер:
+- Прочитать AVR микроконтроллер:
 
 `avrdude -p {{AVR_device}} -c {{programmer}} -U flash:r:{{file.hex}}:i`
 
-- Записать AVR микроконтролер:
+- Записать AVR микроконтроллер:
 
 `avrdude -p {{AVR_device}} -c {{programmer}} -U flash:w:{{file.hex}}`
 
