@@ -1,36 +1,35 @@
 # choco install
 
-> Install one or more packages with Chocolatey.
-> More information: <https://chocolatey.org/docs/commands-install>.
+> Установить один или больее пакетов Chocolatey.
 
-- Install one or more space-separated packages:
+- Установить пакет, или несколько (разделяются пробелом):
 
 `choco install {{package(s)}}`
 
-- Install packages from a custom configuration file:
+- Установить пакет, используя указанный файл конфигурации:
 
 `choco install {{path/to/packages.config}}`
 
-- Install a specific nuspec or nupkg file:
+- Установить пакет, используя nuspec или nupkg файл:
 
 `choco install {{path/to/file}}`
 
-- Install a specific version of a package:
+- Установить пакет указанной версии:
 
 `choco install {{package}} --version {{version}}`
 
-- Allow installing multiple versions of a package:
+- Разрешить установку нескольких версий одного пакета:
 
 `choco install {{package}} --allow-multiple`
 
-- Confirm all prompts automatically:
+- Согласиться со всеми задаваемыми при установке вопросами автоматически:
 
 `choco install {{package}} --yes`
 
-- Specify a custom source to receive packages from:
+- Указать репозиторий для получения пакета:
 
 `choco install {{package}} --source {{source_url|alias}}`
 
-- Provide a username and password for authentication:
+- Задать логин и пароль для аутентификации:
 
 `choco install {{package}} --user {{username}} --password {{password}}`

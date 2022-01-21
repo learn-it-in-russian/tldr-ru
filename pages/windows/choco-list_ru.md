@@ -1,28 +1,27 @@
 # choco list
 
-> Display a list of packages with Chocolatey.
-> More information: <https://chocolatey.org/docs/commands-list>.
+> Вывести список пакетов Chocolatey.
 
-- Display all available packages:
+- Вывести все доступные пакеты:
 
 `choco list`
 
-- Display all locally installed packages:
+- Вывести все установленные локально пакеты:
 
 `choco list --local-only`
 
-- Display a list including local programs:
+- Вывести список пакетов, включая локальные программы:
 
 `choco list --include-programs`
 
-- Display only approved packages:
+- Вывести только подтверждённые пакеты:
 
 `choco list --approved-only`
 
-- Specify a custom source to display packages from:
+- Указать специальный репозиторий для просмотра пакетов:
 
 `choco list --source {{source_url|alias}}`
 
-- Provide a username and password for authentication:
+- Задать логин и пароль для аутентификации:
 
 `choco list --user {{username}} --password {{password}}`

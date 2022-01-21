@@ -1,16 +1,15 @@
 # choco feature
 
-> Interact with features with Chocolatey.
-> More information: <https://chocolatey.org/docs/commands-feature>.
+> Команда для взаимодействия с доп. возможностями Chocolatey.
 
-- Display a list of available features:
+- Вывести список доступных доп. возможностей:
 
 `choco feature list`
 
-- Enable a feature:
+- Включить возможность:
 
 `choco feature enable --name {{name}}`
 
-- Disable a feature:
+- Выключить возможность:
 
 `choco feature disable --name {{name}}`

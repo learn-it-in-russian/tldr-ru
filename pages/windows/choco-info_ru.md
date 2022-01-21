@@ -1,20 +1,19 @@
 # choco info
 
-> Display detailed information about a package with Chocolatey.
-> More information: <https://chocolatey.org/docs/commands-info>.
+> Вывести подробную информацию об указанном пакете Chocolatey.
 
-- Display information on a specific package:
+- Показать информацию об указанном пакете:
 
 `choco info {{package}}`
 
-- Display information for a local package only:
+- Вывести информацию только для локального пакета:
 
 `choco info {{package}} --local-only`
 
-- Specify a custom source to receive packages information from:
+- Указать источник пакета и вывести информацию:
 
 `choco info {{package}} --source {{source_url|alias}}`
 
-- Provide a username and password for authentication:
+- Задать логин и пароль для аутентификации:
 
 `choco info {{package}} --user {{username}} --password {{password}}`
