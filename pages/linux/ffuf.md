@@ -3,11 +3,11 @@
 > Subdomain and directory discovery tool.
 > More information: <https://github.com/ffuf/ffuf>.
 
-- Discover directories using a [w]ordlist on a target [u]rl with [c]olorized and [v]erbose ouput:
+- Discover directories using a [w]ordlist on a target [u]rl with [c]olorized and [v]erbose output:
 
 `ffuf -w {{path/to/wordlist}} -u {{https://target/FUZZ}} -c -v`
 
-- Fuzz host-[H]eaders with a host file on a traget website and [m]atch HTTP 200 [c]ode responses:
+- Fuzz host-[H]eaders with a host file on a target website and [m]atch HTTP 200 [c]ode responses:
 
 `ffuf -w {{hosts.txt}} -u {{https://example.org}} -H "{{Host: FUZZ}}" -mc {{200}}`
 

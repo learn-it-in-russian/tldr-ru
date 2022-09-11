@@ -1,10 +1,11 @@
 # locate
 
 > Find filenames quickly.
+> More information: <https://manned.org/locate>.
 
 - Look for pattern in the database. Note: the database is recomputed periodically (usually weekly or daily):
 
-`locate {{pattern}}`
+`locate "{{pattern}}"`
 
 - Look for a file by its exact filename (a pattern containing no globbing characters is interpreted as `*pattern*`):
 
