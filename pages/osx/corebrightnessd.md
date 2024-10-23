@@ -1,8 +1,8 @@
 # corebrightnessd
 
-> Manages Night Shift.
+> Manage Night Shift.
 > It should not be invoked manually.
-> More information: <https://www.manpagez.com/man/8/corebrightnessd/>.
+> More information: <https://keith.github.io/xcode-man-pages/corebrightnessd.8.html>.
 
 - Start the daemon:
 

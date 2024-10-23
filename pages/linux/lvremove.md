@@ -1,8 +1,8 @@
 # lvremove
 
-> Remove one or more logical volumes.
+> Remove logical volumes.
 > See also: `lvm`.
-> More information: <https://man7.org/linux/man-pages/man8/lvremove.8.html>.
+> More information: <https://manned.org/lvremove>.
 
 - Remove a logical volume in a volume group:
 

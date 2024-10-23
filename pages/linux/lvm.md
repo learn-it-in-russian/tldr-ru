@@ -1,15 +1,11 @@
 # lvm
 
 > Manage physical volumes, volume groups, and logical volumes using the Logical Volume Manager (LVM) interactive shell.
-> More information: <https://man7.org/linux/man-pages/man8/lvm.8.html>.
+> More information: <https://manned.org/lvm>.
 
 - Start the Logical Volume Manager interactive shell:
 
 `sudo lvm`
-
-- List the Logical Volume Manager commands:
-
-`sudo lvm help`
 
 - Initialize a drive or partition to be used as a physical volume:
 
@@ -34,3 +30,7 @@
 - Display information about logical volumes:
 
 `sudo lvm lvdisplay`
+
+- Display help for a specific command:
+
+`lvm help {{command}}`

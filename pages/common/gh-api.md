@@ -1,11 +1,7 @@
 # gh api
 
-> Makes authenticated HTTP requests to the GitHub API and prints the response.
+> Make authenticated HTTP requests to the GitHub API and print the response.
 > More information: <https://cli.github.com/manual/gh_api>.
-
-- Display the subcommand help:
-
-`gh api --help`
 
 - Display the releases for the current repository in JSON format:
 
@@ -34,3 +30,7 @@
 - Send a request to a specific GitHub Enterprise Server:
 
 `gh api --hostname {{github.example.com}} {{endpoint}}`
+
+- Display the subcommand help:
+
+`gh api --help`

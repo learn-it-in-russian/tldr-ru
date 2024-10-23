@@ -1,13 +1,13 @@
 # logcat
 
 > Dump a log of system messages, including stack traces when an error occurred, and information messages logged by applications.
-> More information: <https://developer.android.com/studio/command-line/logcat>.
+> More information: <https://developer.android.com/tools/logcat>.
 
 - Display system logs:
 
 `logcat`
 
-- Write system logs to a file:
+- Write system logs to a [f]ile:
 
 `logcat -f {{path/to/file}}`
 
@@ -17,8 +17,8 @@
 
 - Display logs for a specific PID:
 
-`logcat --pid={{pid}}`
+`logcat --pid {{pid}}`
 
 - Display logs for the process of a specific package:
 
-`logcat --pid=$(pidof -s {{package}})`
+`logcat --pid $(pidof -s {{package}})`

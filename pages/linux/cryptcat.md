@@ -1,7 +1,7 @@
 # cryptcat
 
 > Cryptcat is netcat with encryption capabilities.
-> More information: <http://cryptcat.sourceforge.net>.
+> More information: <https://cryptcat.sourceforge.net>.
 
 - [l]isten on a specified [p]ort and print any data received:
 
@@ -11,11 +11,11 @@
 
 `cryptcat -k {{password}} {{ip_address}} {{port}}`
 
-- Set a timeout [w]:
+- Specify the timeout ([w]):
 
 `cryptcat -k {{password}} -w {{timeout_in_seconds}} {{ip_address}} {{port}}`
 
-- Scan [z] the open ports of a specified host:
+- Scan ([z]) the open ports of a specified host:
 
 `cryptcat -v -z {{ip_address}} {{port}}`
 

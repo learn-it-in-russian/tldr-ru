@@ -1,7 +1,7 @@
 # xml elements
 
 > Extract elements and display the structure of an XML document.
-> More information: <http://xmlstar.sourceforge.net/docs.php>.
+> More information: <https://xmlstar.sourceforge.net/docs.php>.
 
 - Extract elements from an XML document (producing XPATH expressions):
 
@@ -23,6 +23,6 @@
 
 `xml elements -d{{3}} {{path/to/input.xml|URI}}`
 
-- Display help for the `elements` subcommand:
+- Display help:
 
 `xml elements --help`

@@ -1,7 +1,7 @@
 # git bug
 
-> A distributed bug tracker that uses git's internal storage, so no files are added in your project.
-> You may submit your problems to the same git remote you use to interact with others, much like commits and branches.
+> A distributed bug tracker that uses Git's internal storage, so no files are added in your project.
+> You may submit your problems to the same Git remote you use to interact with others, much like commits and branches.
 > More information: <https://github.com/MichaelMure/git-bug/blob/master/doc/md/git-bug.md>.
 
 - Create a new identity:
@@ -12,11 +12,11 @@
 
 `git bug add`
 
-- You can push your new entry to a remote:
+- Push a new bug entry to a remote:
 
 `git bug push`
 
-- You can pull for updates:
+- Pull for updates:
 
 `git bug pull`
 

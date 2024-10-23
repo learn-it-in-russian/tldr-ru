@@ -1,8 +1,8 @@
 # biometrickitd
 
-> Provides support for biometric operations.
+> Get support for biometric operations.
 > It should not be invoked manually.
-> More information: <https://www.manpagez.com/man/8/biometrickitd/>.
+> More information: <https://keith.github.io/xcode-man-pages/biometrickitd.8.html>.
 
 - Start the daemon:
 

@@ -3,9 +3,9 @@
 > Manage set of tracked repositories ("remotes").
 > More information: <https://git-scm.com/docs/git-remote>.
 
-- Show a list of existing remotes, their names and URL:
+- List existing remotes with their names and URLs:
 
-`git remote -v`
+`git remote {{-v|--verbose}}`
 
 - Show information about a remote:
 

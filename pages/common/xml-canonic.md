@@ -1,7 +1,7 @@
 # xml canonic
 
 > Make XML documents canonical.
-> More information: <http://xmlstar.sourceforge.net/docs.php>.
+> More information: <https://xmlstar.sourceforge.net/docs.php>.
 
 - Make an XML document canonical, preserving comments:
 
@@ -15,6 +15,6 @@
 
 `xml canonic --exc-with-comments {{path/to/input.xml|URI}} {{path/to/c14n.xpath}}`
 
-- Display help for the `canonic` subcommand:
+- Display help:
 
 `xml canonic --help`

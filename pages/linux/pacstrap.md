@@ -1,7 +1,7 @@
 # pacstrap
 
 > Arch Linux install script to install packages to the specified new root directory.
-> More information: <https://man.archlinux.org/man/pacstrap.8>.
+> More information: <https://manned.org/pacstrap.8>.
 
 - Install the `base` package, Linux kernel and firmware for common hardware:
 
@@ -23,9 +23,9 @@
 
 `pacstrap -c {{path/to/new/root}} {{packages}}`
 
-- Install packages without copy the host's pacman keyring to the target:
+- Initialize an empty `pacman` keyring in the target without copying it from the host:
 
-`pacstrap -G {{path/to/new/root}} {{packages}}`
+`pacstrap -K {{path/to/new/root}} {{packages}}`
 
 - Install packages in interactive mode (prompts for confirmation):
 

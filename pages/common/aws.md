@@ -1,7 +1,7 @@
 # aws
 
 > The official CLI tool for Amazon Web Services.
-> Some subcommands such as `aws s3` have their own usage documentation.
+> Some subcommands such as `s3` have their own usage documentation.
 > More information: <https://aws.amazon.com/cli>.
 
 - Configure the AWS Command-line:
@@ -11,10 +11,6 @@
 - Configure the AWS Command-line using SSO:
 
 `aws configure sso`
-
-- See help text for the AWS command:
-
-`aws {{command}} help`
 
 - Get the caller identity (used to troubleshoot permissions):
 
@@ -35,3 +31,7 @@
 - Generate a JSON CLI Skeleton (useful for infrastructure as code):
 
 `aws dynamodb update-table --generate-cli-skeleton`
+
+- Display help for a specific command:
+
+`aws {{command}} help`

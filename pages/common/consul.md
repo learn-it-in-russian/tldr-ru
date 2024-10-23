@@ -1,17 +1,17 @@
 # consul
 
 > Distributed key-value store with health checking and service discovery.
-> Some subcommands such as `consul kv` have their own usage documentation.
+> Some subcommands such as `kv` have their own usage documentation.
 > More information: <https://www.consul.io/commands>.
 
-- Check the Consul version:
-
-`consul --version`
-
-- Show general help:
+- Display help:
 
 `consul --help`
 
-- Show help for a sub-command:
+- Display help for a subcommand:
 
-`consul {{sub-command}} --help`
+`consul {{subcommand}} --help`
+
+- Display version:
+
+`consul --version`

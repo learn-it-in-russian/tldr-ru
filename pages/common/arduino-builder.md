@@ -1,7 +1,7 @@
 # arduino-builder
 
 > Compile arduino sketches.
-> DEPRECATION WARNING: This tool is being phased out in favor of `arduino`.
+> DEPRECATION WARNING: this tool is being phased out in favor of `arduino`.
 > More information: <https://github.com/arduino/arduino-builder>.
 
 - Compile a sketch:
@@ -16,7 +16,7 @@
 
 `arduino-builder -build-path {{path/to/build_directory}}`
 
-- Use a build option file, instead of specifying `--hardware`, `--tools`, etc. manually every time:
+- Use a build option file, instead of specifying `-hardware`, `-tools`, etc. manually every time:
 
 `arduino-builder -build-options-file {{path/to/build.options.json}}`
 

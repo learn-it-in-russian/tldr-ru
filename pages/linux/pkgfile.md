@@ -1,8 +1,8 @@
 # pkgfile
 
-> Tool for searching files from packages in the official repositories on arch-based systems.
-> See also `pacman files`, describing the usage of `pacman --files`.
-> More information: <https://man.archlinux.org/man/extra/pkgfile/pkgfile.1>.
+> Search files from packages in the official repositories on Arch-based systems.
+> See also: `pacman files`, describing the usage of `pacman --files`.
+> More information: <https://manned.org/pkgfile>.
 
 - Synchronize the pkgfile database:
 

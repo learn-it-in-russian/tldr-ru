@@ -1,6 +1,6 @@
 # ack
 
-> A search tool like grep, optimized for developers.
+> A search tool like `grep`, optimized for developers.
 > See also: `rg`, which is much faster.
 > More information: <https://beyondgrep.com/documentation>.
 
@@ -18,11 +18,11 @@
 
 - Limit search to files of a specific type:
 
-`ack --type={{ruby}} "{{search_pattern}}"`
+`ack --type {{ruby}} "{{search_pattern}}"`
 
 - Do not search in files of a specific type:
 
-`ack --type=no{{ruby}} "{{search_pattern}}"`
+`ack --type no{{ruby}} "{{search_pattern}}"`
 
 - Count the total number of matches found:
 

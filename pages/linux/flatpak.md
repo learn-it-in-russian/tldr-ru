@@ -5,15 +5,15 @@
 
 - Run an installed application:
 
-`flatpak run {{name}}`
+`flatpak run {{com.example.app}}`
 
 - Install an application from a remote source:
 
-`flatpak install {{remote}} {{name}}`
+`flatpak install {{remote_name}} {{com.example.app}}`
 
-- List all installed applications and runtimes:
+- List installed applications, ignoring runtimes:
 
-`flatpak list`
+`flatpak list --app`
 
 - Update all installed applications and runtimes:
 
@@ -25,7 +25,7 @@
 
 - Remove an installed application:
 
-`flatpak remove {{name}}`
+`flatpak remove {{com.example.app}}`
 
 - Remove all unused applications:
 
@@ -33,4 +33,4 @@
 
 - Show information about an installed application:
 
-`flatpak info {{name}}`
+`flatpak info {{com.example.app}}`

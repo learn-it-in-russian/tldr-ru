@@ -7,18 +7,22 @@
 
 `fastfetch`
 
-- Set the structure of the fetch:
+- Fetch a specific structure:
 
 `fastfetch --structure {{structure}}`
 
-- Load a custom config file:
+- Load a custom configuration file:
 
 `fastfetch --load-config {{path/to/config_file}}`
 
-- Set the logo to use:
+- Use a specific logo:
 
 `fastfetch --logo {{logo}}`
 
-- Set the color of the keys and title:
+- Display system information without a logo:
+
+`fastfetch --logo none`
+
+- Use a specific color for the keys and title:
 
 `fastfetch --color {{blue}}`

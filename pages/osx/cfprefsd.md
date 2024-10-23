@@ -1,8 +1,8 @@
 # cfprefsd
 
-> Provides preferences services (`CFPreferences`, `NSUserDefaults`).
+> Start preferences services (`CFPreferences`, `NSUserDefaults`).
 > It should not be invoked manually.
-> More information: <https://www.unix.com/man-page/osx/8/cfprefsd/>.
+> More information: <https://keith.github.io/xcode-man-pages/cfprefsd.8.html>.
 
 - Start the daemon:
 

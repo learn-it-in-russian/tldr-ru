@@ -1,7 +1,7 @@
 # az
 
 > The official CLI tool for Microsoft Azure.
-> Some subcommands such as `az login` have their own usage documentation.
+> Some subcommands such as `login` have their own usage documentation.
 > More information: <https://learn.microsoft.com/cli/azure>.
 
 - Log in to Azure:
@@ -27,3 +27,11 @@
 - Manage Azure Network resources:
 
 `az network`
+
+- Start in interactive mode:
+
+`az interactive`
+
+- Display help:
+
+`az --help`

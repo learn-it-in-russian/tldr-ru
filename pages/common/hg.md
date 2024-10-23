@@ -1,18 +1,18 @@
 # hg
 
 > Mercurial - a distributed source control management system.
-> Some subcommands such as `hg commit` have their own usage documentation.
+> Some subcommands such as `commit` have their own usage documentation.
 > More information: <https://www.mercurial-scm.org>.
 
 - Execute a Mercurial command:
 
 `hg {{command}}`
 
-- Call general help:
+- Display help:
 
 `hg help`
 
-- Call help on a command:
+- Display help for a specific command:
 
 `hg help {{command}}`
 

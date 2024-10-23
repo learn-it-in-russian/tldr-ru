@@ -1,7 +1,7 @@
 # dc
 
 > An arbitrary precision calculator. Uses reverse polish notation (RPN).
-> See also: `bc`.
+> See also: `bc`, `qalc`.
 > More information: <https://www.gnu.org/software/bc/manual/dc-1.05/html_mono/dc.html>.
 
 - Start an interactive session:
@@ -20,7 +20,7 @@
 
 `dc --expression='4 5 * 17 - p'`
 
-- Set number of decimal places to 7 (7 k), calculate 5 divided by -3 (5 _3 /) and [p]rint:
+- Specify the number of decimal places to 7 (7 k), calculate 5 divided by -3 (5 _3 /) and [p]rint:
 
 `dc --expression='7 k 5 _3 / p'`
 

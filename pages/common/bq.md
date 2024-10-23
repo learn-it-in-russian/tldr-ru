@@ -1,6 +1,6 @@
 # bq
 
-> The bq command-line tool is a Python-based command-line tool for BigQuery.
+> A Python-based tool for BigQuery, Google Cloud's fully managed and completely serverless enterprise data warehouse.
 > More information: <https://cloud.google.com/bigquery/docs/reference/bq-cli-reference>.
 
 - Run query against a BigQuery table using standard SQL, add `--dry_run` flag to estimate the number of bytes read by the query:
@@ -21,12 +21,12 @@
 
 - Batch load data from a specific file in formats such as CSV, JSON, Parquet, and Avro to a table:
 
-`bq load --location={{location}} --source_format={{CSV|JSON|PARQUET|AVRO}} {{dataset}}.{{table}} {{path_to_source}}`
+`bq load --location {{location}} --source_format {{CSV|JSON|PARQUET|AVRO}} {{dataset}}.{{table}} {{path_to_source}}`
 
 - Copy one table to another:
 
 `bq cp {{dataset}}.{{OLD_TABLE}} {{dataset}}.{{new_table}}`
 
-- Print help:
+- Display help:
 
 `bq help`

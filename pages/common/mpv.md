@@ -1,15 +1,12 @@
 # mpv
 
 > A audio/video player based on MPlayer.
+> See also: `mplayer`, `vlc`.
 > More information: <https://mpv.io>.
 
-- Play a video or audio file:
+- Play a video or audio from a URL or file:
 
-`mpv {{path/to/file}}`
-
-- Play a video or audio file from a URL:
-
-`mpv '{{https://www.youtube.com/watch?v=dQw4w9WgXcQ}}'`
+`mpv {{url|path/to/file}}'`
 
 - Jump backward/forward 5 seconds:
 
@@ -23,9 +20,13 @@
 
 `[ <or> ]`
 
-- Play a file at a specified speed (0.01 to 100, default 1):
+- Take a screenshot of the current frame (saved to `./mpv-shotNNNN.jpg` by default):
 
-`mpv --speed {{speed}} {{path/to/file}}`
+`s`
+
+- Play a file at a specified speed (1 by default):
+
+`mpv --speed {{0.01..100}} {{path/to/file}}`
 
 - Play a file using a profile defined in the `mpv.conf` file:
 
@@ -33,4 +34,4 @@
 
 - Display the output of webcam or other video input device:
 
-`mpv /dev/{{video0}}`
+`mpv {{/dev/video0}}`

@@ -1,7 +1,7 @@
 # xml validate
 
 > Validate XML documents.
-> More information: <http://xmlstar.sourceforge.net/docs.php>.
+> More information: <https://xmlstar.sourceforge.net/docs.php>.
 
 - Validate one or more XML documents for well-formedness only:
 
@@ -19,6 +19,6 @@
 
 `xml validate --relaxng {{path/to/schema.rng}} {{path/to/input1.xml|URI}} {{input2.xml ...}}`
 
-- Display help for the `validate` subcommand:
+- Display help:
 
 `xml validate --help`

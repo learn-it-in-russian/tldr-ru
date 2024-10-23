@@ -1,7 +1,7 @@
 # xml edit
 
 > Edit an XML document.
-> More information: <http://xmlstar.sourceforge.net/docs.php>.
+> More information: <https://xmlstar.sourceforge.net/docs.php>.
 
 - Delete elements matching an XPATH from an XML document:
 
@@ -23,6 +23,6 @@
 
 `xml edit --update "{{xml/table/rec[@id=3]/@id}}" -v {{5}} {{path/to/input.xml|URI}}`
 
-- Display help for the `edit` subcommand:
+- Display help:
 
 `xml edit --help`

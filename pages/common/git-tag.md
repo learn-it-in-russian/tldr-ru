@@ -1,7 +1,7 @@
 # git tag
 
 > Create, list, delete or verify tags.
-> A tag is a static reference to a specific commit.
+> A tag is a static reference to a commit.
 > More information: <https://git-scm.com/docs/git-tag>.
 
 - List all tags:
@@ -22,11 +22,15 @@
 
 - Delete the tag with the given name:
 
-`git tag -d {{tag_name}}`
+`git tag {{-d|--delete}} {{tag_name}}`
 
-- Get updated tags from upstream:
+- Get updated tags from remote:
 
 `git fetch --tags`
+
+- Push a tag to remote:
+
+`git push origin tag {{tag_name}}`
 
 - List all tags whose ancestors include a given commit:
 

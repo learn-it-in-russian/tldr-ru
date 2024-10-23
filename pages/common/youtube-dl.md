@@ -1,7 +1,8 @@
 # youtube-dl
 
 > Download videos from YouTube and other websites.
-> More information: <http://rg3.github.io/youtube-dl/>.
+> See also: `yt-dlp`, `ytfzf`, `you-get`.
+> More information: <https://rg3.github.io/youtube-dl/>.
 
 - Download a video or playlist:
 
@@ -33,4 +34,4 @@
 
 - Download a playlist and extract MP3s from it:
 
-`youtube-dl -f "bestaudio" --continue --no-overwrites --ignore-errors --extract-audio --audio-format mp3 -o "%(title)s.%(ext)s" {{url_to_playlist}}`
+`youtube-dl -f "bestaudio" --continue --no-overwrites --ignore-errors --extract-audio --audio-format mp3 -o "%(title)s.%(ext)s" '{{url_to_playlist}}'`

@@ -2,13 +2,13 @@
 
 > A lightweight packet sniffer for displaying and logging HTTP traffic.
 > It can be run in real-time displaying the traffic as it is parsed, or as a daemon process that logs to an output file.
-> More information: <http://dumpsterventures.com/jason/httpry/>.
+> More information: <https://dumpsterventures.com/jason/httpry/>.
 
 - Save output to a file:
 
 `httpry -o {{path/to/file.log}}`
 
-- Listen on a specific interface and save output to a binary pcap format file:
+- Listen on a specific interface and save output to a binary PCAP format file:
 
 `httpry {{eth0}} -b {{path/to/file.pcap}}`
 

@@ -1,7 +1,7 @@
 # redis-benchmark
 
-> A tool to benchmark a Redis server.
-> More information: <https://redis.io/docs/reference/optimization/benchmarks/>.
+> Benchmark a Redis server.
+> More information: <https://redis.io/docs/latest/operate/oss_and_stack/management/optimization/benchmarks/>.
 
 - Run full benchmark:
 

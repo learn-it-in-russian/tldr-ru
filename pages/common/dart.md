@@ -1,6 +1,6 @@
 # dart
 
-> The tool for managing Dart projects.
+> Manage Dart projects.
 > More information: <https://dart.dev/tools/dart-tool>.
 
 - Initialize a new Dart project in a directory of the same name:
@@ -26,3 +26,7 @@
 - Compile a Dart file to a native binary:
 
 `dart compile exe {{path/to/file.dart}}`
+
+- Apply automated fixes to the current project:
+
+`dart fix --apply`

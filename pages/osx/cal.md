@@ -1,13 +1,13 @@
 # cal
 
-> Prints calendar information.
-> More information: <https://ss64.com/osx/cal.html>.
+> Print calendar information.
+> More information: <https://keith.github.io/xcode-man-pages/cal.1.html>.
 
 - Display a calendar for the current month:
 
 `cal`
 
-- Display previous, current and next month:
+- Display previous, current, and next month:
 
 `cal -3`
 

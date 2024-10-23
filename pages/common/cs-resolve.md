@@ -1,6 +1,6 @@
 # cs resolve
 
-> Resolve lists the transitive dependencies of one or more other dependencies.
+> Resolve lists the transitive dependencies of other dependencies.
 > More information: <https://get-coursier.io/docs/cli-resolve>.
 
 - Resolve lists of transitive dependencies of two dependencies:
@@ -13,7 +13,7 @@
 
 - Resolve dependency tree in a reverse order (from a dependency to its dependencies):
 
-`cs resolve --reverse-tree {{group_id}}:{{artifact_id}}:{{artifact_version}`
+`cs resolve --reverse-tree {{group_id}}:{{artifact_id}}:{{artifact_version}}`
 
 - Print all the libraries that depends on a specific library:
 

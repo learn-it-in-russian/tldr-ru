@@ -9,7 +9,7 @@
 
 - Clone an SVN repository starting at a given revision number:
 
-`git svn clone -r{{1234}}:HEAD {{https://svn.example.net/subversion/repo}} {{local_dir}}`
+`git svn clone {{-r|--revision}} {{1234}}:HEAD {{https://svn.example.net/subversion/repo}} {{local_dir}}`
 
 - Update local clone from the remote SVN repository:
 
@@ -21,4 +21,4 @@
 
 - Commit back to the SVN repository:
 
-`git svn dcommit`
+`git svn commit`

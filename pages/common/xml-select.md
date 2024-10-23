@@ -2,7 +2,7 @@
 
 > Select from XML documents using XPATHs.
 > Tip: use `xml elements` to display the XPATHs of an XML document.
-> More information: <http://xmlstar.sourceforge.net/docs.php>.
+> More information: <https://xmlstar.sourceforge.net/docs.php>.
 
 - Select all elements matching "XPATH1" and print the value of their sub-element "XPATH2":
 
@@ -20,6 +20,6 @@
 
 `xml select --text --template --inp-name --output " " --value-of "count(node())" --nl {{path/to/input1.xml|URI}} {{path/to/input2.xml|URI}}`
 
-- Display help for the `select` subcommand:
+- Display help:
 
 `xml select --help`

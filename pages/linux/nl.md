@@ -1,15 +1,36 @@
 # nl
 
-> A utility for numbering lines, either from a file, or from standard input.
+> Number lines from a file or from `stdin`.
+> More information: <https://manned.org/nl.1p>.
 
-- Number lines in a file:
+- Number non-blank lines in a file:
 
-`nl {{file}}`
+`nl {{path/to/file}}`
 
-- Number only the lines with printable text:
+- Read from `stdin`:
 
-`nl -t {{file}}`
+`{{command}} | nl -`
 
-- Number only the body lines that match a basic regular expression (BRE) pattern:
+- Number [a]ll [b]ody lines including blank lines or do [n]ot number [b]ody lines:
 
-`nl -b p'FooBar[0-9]' {{file}}`
+`nl --body-numbering {{a|n}} {{path/to/file}}`
+
+- Number only the [b]ody lines that match a basic regular expression (BRE) [p]attern:
+
+`nl --body-numbering p'FooBar[0-9]' {{path/to/file}}`
+
+- Use a specific [i]ncrement for line numbering:
+
+`nl --line-increment {{increment}} {{path/to/file}}`
+
+- Specify the line numbering format to [r]ight or [l]eft justified, keeping leading [z]eros or [n]ot:
+
+`nl --number-format {{rz|ln|rn}}`
+
+- Specify the line numbering's [w]idth (6 by default):
+
+`nl --number-width {{col_width}} {{path/to/file}}`
+
+- Use a specific string to [s]eparate the line numbers from the lines (TAB by default):
+
+`nl --number-separator {{separator}} {{path/to/file}}`

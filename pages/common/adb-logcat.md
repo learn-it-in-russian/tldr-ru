@@ -1,13 +1,13 @@
 # adb logcat
 
 > Dump a log of system messages.
-> More information: <https://developer.android.com/studio/command-line/logcat>.
+> More information: <https://developer.android.com/tools/logcat>.
 
 - Display system logs:
 
 `adb logcat`
 
-- Display lines that match a regular expression:
+- Display lines that match a regular [e]xpression:
 
 `adb logcat -e {{regular_expression}}`
 
@@ -25,11 +25,11 @@
 
 - Display logs for a specific PID:
 
-`adb logcat --pid={{pid}}`
+`adb logcat --pid {{pid}}`
 
 - Display logs for the process of a specific package:
 
-`adb logcat --pid=$(adb shell pidof -s {{package}})`
+`adb logcat --pid $(adb shell pidof -s {{package}})`
 
 - Color the log (usually use with filters):
 

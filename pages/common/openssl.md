@@ -1,17 +1,17 @@
 # openssl
 
 > OpenSSL cryptographic toolkit.
-> Some subcommands such as `openssl req` have their own usage documentation.
+> Some subcommands such as `req` have their own usage documentation.
 > More information: <https://www.openssl.org>.
 
-- Print a list of available subcommands:
+- Display help:
 
 `openssl help`
 
-- Print options for a specific subcommand:
+- Display help for a specific subcommand:
 
 `openssl help {{x509}}`
 
-- Print the version of OpenSSL:
+- Display version:
 
 `openssl version`

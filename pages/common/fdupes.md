@@ -1,6 +1,6 @@
 # fdupes
 
-> Finds duplicate files in a given set of directories.
+> Finds duplicate files in a set of directories.
 > More information: <https://github.com/adrianlopezroche/fdupes>.
 
 - Search a single directory:
@@ -19,7 +19,7 @@
 
 `fdupes {{directory1}} -R {{directory2}}`
 
-- Search recursively and replace duplicates with hardlinks:
+- Search recursively, considering hardlinks as duplicates:
 
 `fdupes -rH {{path/to/directory}}`
 
